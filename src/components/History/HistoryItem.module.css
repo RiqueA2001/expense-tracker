@@ -1,0 +1,15 @@
+.history-item {
+  background-color: white;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.398);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.income {
+  border-right: 5px solid green;
+}
+
+.expense {
+  border-right: 5px solid red;
+}

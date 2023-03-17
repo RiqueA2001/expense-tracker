@@ -1,0 +1,39 @@
+.balance {
+  margin-bottom: 3rem;
+}
+
+.balance-total span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.income-expense {
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.398);
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.income-expense span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.income,
+.expense {
+  flex: 1;
+  text-align: center;
+}
+
+.income {
+  border-right: 1px solid rgba(0, 0, 0, 0.332);
+}
+
+.income span {
+  color: green;
+}
+
+.expense span {
+  color: red;
+}

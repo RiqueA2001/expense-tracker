@@ -1,0 +1,45 @@
+.new-transaction h3 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.422);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.control {
+  margin-bottom: 1rem;
+}
+
+.control label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.control input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+.new-transaction button {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.8rem;
+  background-color: #6c5cb8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.new-transaction button:hover {
+  background-color: #6052a2;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+
+.error-text {
+  color: red;
+}

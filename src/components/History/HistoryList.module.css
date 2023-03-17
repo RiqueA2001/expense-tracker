@@ -1,0 +1,6 @@
+.history-list {
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+}
